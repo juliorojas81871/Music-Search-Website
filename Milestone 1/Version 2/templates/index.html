@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spotif's World Favarite Artist Song</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" type="text/css" />
+</head>
+<body>
+    <main> 
+        <div class="container"> 
+            <h3>This is not my Favorite Artist</h3>
+            <h3>According to Spotify, this Artist is one of the Most Popular</h3>
+            <p>&nbsp; Song Name: {{Song_Name_Display}}</p>
+            <p> </p>
+            <p>Artist name:{{Artist_Name_Display}}</p>    
+
+            <p>Song Preview URL: {{Song_Play}}</p>
+            
+            <img src="{{Image_Display}}">
+            <p> &nbsp;</p>
+            <audio controls src={{Song_Play}}>
+                Your browser does not support the audio element.
+                <code>audio</code> elemnt.
+            </audio>
+        </div>   
+    </main>
+
+</body>
+</html>

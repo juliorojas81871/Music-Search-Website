@@ -1,0 +1,36 @@
+.container{
+  margin-left: auto;
+  margin-right: auto; 
+  width: 1024px;
+}
+html{
+  height: 100%;
+}
+body{
+    background-color: #90a4ae;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main{
+  height: 400px;
+  text-align: center;
+  /*padding-top: 240px;*/
+  padding-left: 240px;
+  padding-right: 240px;
+}
+p{ 
+    font-size: 50;
+
+}
+h3{ 
+    font-size: 50;
+
+}
+img {
+    max-width:50%;
+    height:auto;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> Milestone 1

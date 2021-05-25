@@ -1,0 +1,15 @@
+beautifulsoup4==4.9.3
+certifi==2020.12.5
+chardet==4.0.0
+click==7.1.2
+Flask==1.0.2
+idna==2.10
+itsdangerous==1.1.0
+Jinja2==2.11.3
+lyricsgenius @ git+https://github.com/johnwmillr/LyricsGenius.git@4b89d4213def24846eb3e7f5c488a3f1df821b38
+MarkupSafe==1.1.1
+python-dotenv==0.15.0
+requests==2.25.1
+soupsieve==2.2
+urllib3==1.26.3
+Werkzeug==1.0.1
